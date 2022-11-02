@@ -7,9 +7,9 @@ for(let i=0; i<=number; i++){
 	}
 if(factor == 2){
 return true;
-}else{
-return false;
 }
+return false;
+
 }
 
 let answer = prime(13);
