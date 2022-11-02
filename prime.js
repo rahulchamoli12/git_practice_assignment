@@ -1,11 +1,20 @@
-function prime(num){
-	let fac=0;
-for(let i=0; i<=num; i++){
-	if(num%i){
-	fac+=i
+function prime(number){
+	let factor=0;
+for(let i=0; i<=number; i++){
+	if(number%i){
+	fac++;
 	}
 	}
-return fac;
+if(factor == 2){
+return true;
+}else{
+return false;
+}
 }
 
-prime(13);
+let answer = prime(13);
+if(answer==true){
+console.log("Is a Prime Number");
+}else{
+console.log("Is Not a Prime Number");
+}
